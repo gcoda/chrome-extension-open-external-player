@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "gnome-mpv --enqueue",
+  "short_name": "gnome-mpv",
+  "description": "Opens a url with gnomempv:// pseudo protocol",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/gnome-mpv16.png"
+  },
+  "background": {"page": "background.html"}
+}

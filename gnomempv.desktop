@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Gnome-mpv
+GenericName=Gnome enqueue Client
+Comment=add link to play list
+Exec=sh -c "echo %U | sed 's/gnomempv:\/\///g' | xargs gnome-mpv --enqueue "
+Terminal=false
+Type=Application
+MimeType=x-scheme-handler/gnomempv;
+Categories=Network;AudioVideo;GTK;
