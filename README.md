@@ -1,5 +1,7 @@
 # Chrome to Gnome-MPV
 
+Here is a [video-demo](https://youtu.be/rXB-ScC8buQ)
+
 ## A bit hacky...
 
 Adds context menu item to append `gnomempv://` to link url, selected text, or page url. 
